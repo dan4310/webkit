@@ -1,0 +1,40 @@
+:root {
+	--clr-primary-1: hsla(228, 100%, 40%, 1);
+	--clr-primary-1-t: hsla(228, 100%, 40%, 0.8);
+
+	--clr-primary-2: hsla(228, 100%, 50%, 1);
+	--clr-primary-2-t: hsla(228, 100%, 50%, 0.8);
+
+	--clr-primary-3: hsla(228, 100%, 60%, 1);
+	--clr-primary-1-t: hsla(228, 100%, 60%, 0.8);
+
+	--clr-shadow: hsla(0, 0%, 0%, 0.6);
+
+	--b-rd-1: 4px;
+	--b-rd-2: 8px;
+
+	--b-th-1: 1px;
+	--b-th-2: 2px;
+}
+
+:root {
+	--clr-bg-1: hsla(0, 0%, 100%, 1);
+	--clr-bg-2: hsla(0, 0%, 90%, 1);
+	--clr-bg-3: hsla(0, 0%, 80%, 1);
+
+	--clr-txt-1: hsla(0, 0%, 0%, 1);
+	--clr-txt-2: hsla(0, 0%, 10%, 1);
+	--clr-txt-3: hsla(0, 0%, 20%, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--clr-bg-1: hsla(0, 0%, 0%, 1);
+		--clr-bg-2: hsla(0, 0%, 10%, 1);
+		--clr-bg-3: hsla(0, 0%, 20%, 1);
+
+		--clr-txt-1: hsla(0, 0%, 100%, 1);
+		--clr-txt-2: hsla(0, 0%, 90%, 1);
+		--clr-txt-3: hsla(0, 0%, 80%, 1);
+	}
+}
